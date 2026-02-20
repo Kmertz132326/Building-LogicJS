@@ -1,17 +1,12 @@
-// Kata 2: FizzBuzz from 1 to 20
+// Kata 1: Print the first 10 even numbers
 // ** OBJECTIVE** Create your own loop using the following logic**
-// Commit 1: "scaffold for loop"
-// Commit 2: "added fizzbuzz logic"
-// Commit 3: "refactored with clear variable and comments"
+// Commit 1: "scaffold loop structure"
+// Commit 2: "added even number condition"
+// Commit 3: "refactored variable names for clarity"
+
 
 for (let i = 1; i <= 20; i++) {
-  if (i % 3 === 0 && i % 5 === 0) {
-    console.log("FizzBuzz");
-  } else if (i % 3 === 0) {
-    console.log("Fizz");
-  } else if (i % 5 === 0) {
-    console.log("Buzz");
-  } else {
+  if (i % 2 === 0) {
     console.log(i);
   }
 }
