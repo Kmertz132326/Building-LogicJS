@@ -5,8 +5,8 @@
 // Commit 3: "refactored variable names for clarity"
 
 
-for (let i = 1; i <= 20; i++) {
-  if (i % 2 === 0) {
-    console.log(i);
+for (let blocks = 1; blocks <= 20; blocks++) {
+  if (blocks % 2 === 0) {
+    console.log(blocks);
   }
 }
